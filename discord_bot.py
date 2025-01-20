@@ -22,4 +22,4 @@ async def on_message(message):
     else:
         await message.channel.send("Şifreniz: " + gen_pass(10))
 
-client.run("TOKENİMİ YAZDIM")
+client.run("TOKEN BURAYA YAZILCAK")
